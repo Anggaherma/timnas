@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMNAS INDONESIA</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- NAVIGATION BAR -->
+        <div class="container-navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="myGeneration.html" class="a-navbar">TIMNAS INDONESIA</a>
+                <!-- </li>
+                <li class="li-navbar">
+                    <a href="about.html" class="a-navbar">ABOUT ME</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="contact.html" class="a-navbar">CONTACT ME</a>
+                </li> -->
+            </ul>
+        </div>
+
+        <!-- NAVIGATION BAR SELESAI -->
+        <div></div>
+
+        <!-- CONTENT 1 -->
+        <div class="container-content">
+            <a class="a-content">
+                <img src="img/timnaslogo.jpg" class="img-content" />    
+            </a>
+        </div>
+
+        <!-- CONTENT 1 END -->
+        <div  class="container-generation">
+            <a class="a-gen">
+                <h2> Cek Detail Pemain</h2>
+                <label>Masukan Nama Pemain</label>
+                <div id="inputYear">
+                    <input type="string" placeholder="contoh: Jay Idzes" id="birthYear"/>
+                </div>
+                <button id="submit" onclick="checkResult()">Check</button>
+            </a>
+            <p> Detail : </p>
+        </div>
+        <div  class="container-gen-res">
+            <a class="a-genRes">
+                <!-- Data Start -->
+                <div id="generation"></div>
+                <!-- Data End -->
+            </a>
+        </div>
+        <!-- FOOTER -->
+        <div class="container-footer">
+            <h3 class="hi-footer">Website Ini Dibuat Untuk Mengetahui Para Pemain Sepakbola Indonesia</h3>
+        </div>
+
+        <!-- FOOTER END -->
+        <div></div>
+    </div>
+    <script src="data.js" type="text/javascript"></script>
+</body>
+
+</html>
